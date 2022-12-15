@@ -611,7 +611,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4ca07f8885a01af409f7cd276d53e364, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.06379091
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4ca07f8885a01af409f7cd276d53e364, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1551,10 +1551,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33afe8e6ba0ae924d8d83a2019d1951d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  menuToggle: {fileID: 0}
-  canvas: {fileID: 0}
-  socket: {fileID: 0}
-  tabObjets: []
+  menuToggle: {fileID: -8061240218431744966, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  canvas: {fileID: 6993778856000944384}
+  socket: {fileID: 6993778856408321539}
+  tabObjets:
+  - {fileID: 6993778857057714419}
 --- !u!1 &6993778856000944384
 GameObject:
   m_ObjectHideFlags: 0
@@ -2706,7 +2707,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 0}
+  m_InteractionManager: {fileID: 1496171904}
   m_Colliders:
   - {fileID: 6993778857057714422}
   m_InteractionLayerMask:
@@ -3018,9 +3019,7 @@ GameObject:
   - component: {fileID: 6993778857367816682}
   - component: {fileID: 6993778857367816681}
   - component: {fileID: 6993778857367816683}
-  - component: {fileID: 6993778857367816685}
-  - component: {fileID: 6993778857367816687}
-  - component: {fileID: 6993778857367816686}
+  - component: {fileID: 6993778857367816684}
   m_Layer: 0
   m_Name: imageGrabItem
   m_TagString: Untagged
@@ -3106,7 +3105,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.05, y: 0.05, z: 0.025}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &6993778857367816685
+--- !u!114 &6993778857367816684
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3115,41 +3114,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 6993778857367816679}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: 00c37f28b0aee364999f0070c22f8230, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &6993778857367816686
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6993778857367816679}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &6993778857367816687
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6993778857367816679}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60523e0647cc6ab43acc73cb266a32a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 0}
+  m_InteractionManager: {fileID: 1496171904}
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
   m_InteractionLayers:
-    m_Bits: 8
+    m_Bits: 4294967295
   m_AttachTransform: {fileID: 6993778856408321540}
-  m_KeepSelectedTargetValid: 0
+  m_KeepSelectedTargetValid: 1
   m_StartingSelectedInteractable: {fileID: 6993778857057714420}
   m_StartingTargetFilter: {fileID: 0}
   m_HoverEntered:
