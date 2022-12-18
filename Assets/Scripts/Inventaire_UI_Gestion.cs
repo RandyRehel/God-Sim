@@ -51,24 +51,7 @@ public class Inventaire_UI_Gestion : MonoBehaviour
         despawnList.AddRange(objList);
         despawnList.AddRange(reccomencerList);
         
-        foreach(GameObject despawn in despawnList)
-        {
-            if(despawn.GetComponent<variables>().isSocketed)
-            {
-                Renderer mesh = despawn.GetComponent<MeshRenderer>();
-                mesh.enabled = false;
-                Renderer childrenMesh = despawn.GetComponentsInChildren<MeshRenderer>();
-                childrenMesh.enabled = false;
-            }
-        }
-
-        foreach(GameObject respawn in respawnList)
-        {
-            Renderer mesh = respawn.GetComponent<MeshRenderer>();
-            Renderer childrenMesh = respawn.GetComponentsInChildren<MeshRenderer>();
-            mesh.enabled = true;
-            childrenMesh.enabled = true;
-        }
+        buttonEffect(despawnList, respawnList);
 
         objList.Clear();
         envList.Clear();
@@ -100,24 +83,7 @@ public class Inventaire_UI_Gestion : MonoBehaviour
         despawnList.AddRange(objList);
         despawnList.AddRange(reccomencerList);
         
-         foreach(GameObject despawn in despawnList)
-        {
-            if(despawn.GetComponent<variables>().isSocketed)
-            {
-                Renderer mesh = despawn.GetComponent<MeshRenderer>();
-                mesh.enabled = false;
-                Renderer childrenMesh = despawn.GetComponentsInChildren<MeshRenderer>();
-                childrenMesh.enabled = false;
-            }
-        }
-
-        foreach(GameObject respawn in respawnList)
-        {
-            Renderer mesh = respawn.GetComponent<MeshRenderer>();
-            Renderer childrenMesh = respawn.GetComponentsInChildren<MeshRenderer>();
-            mesh.enabled = true;
-            childrenMesh.enabled = true;
-        }
+        buttonEffect(despawnList, respawnList);
 
         objList.Clear();
         envList.Clear();
@@ -148,24 +114,7 @@ public class Inventaire_UI_Gestion : MonoBehaviour
         despawnList.AddRange(objList);
         respawnList.AddRange(reccomencerList);
         
-        foreach(GameObject despawn in despawnList)
-        {
-            if(despawn.GetComponent<variables>().isSocketed)
-            {
-                Renderer mesh = despawn.GetComponent<MeshRenderer>();
-                mesh.enabled = false;
-                Renderer childrenMesh = despawn.GetComponentsInChildren<MeshRenderer>();
-                childrenMesh.enabled = false;
-            }
-        }
-
-        foreach(GameObject respawn in respawnList)
-        {
-            Renderer mesh = respawn.GetComponent<MeshRenderer>();
-            Renderer childrenMesh = respawn.GetComponentsInChildren<MeshRenderer>();
-            mesh.enabled = true;
-            childrenMesh.enabled = true;
-        }
+        buttonEffect(despawnList, respawnList);
 
         objList.Clear();
         envList.Clear();
@@ -197,24 +146,7 @@ public class Inventaire_UI_Gestion : MonoBehaviour
         despawnList.AddRange(envList);
         despawnList.AddRange(reccomencerList);
         
-        foreach(GameObject despawn in despawnList)
-        {
-            if(despawn.GetComponent<variables>().isSocketed)
-            {
-                Renderer mesh = despawn.GetComponent<MeshRenderer>();
-                mesh.enabled = false;
-                Renderer childrenMesh = despawn.GetComponentsInChildren<MeshRenderer>();
-                childrenMesh.enabled = false;
-            }
-        }
-
-        foreach(GameObject respawn in respawnList)
-        {
-            Renderer mesh = respawn.GetComponent<MeshRenderer>();
-            Renderer childrenMesh = respawn.GetComponentsInChildren<MeshRenderer>();
-            mesh.enabled = true;
-            childrenMesh.enabled = true;
-        }
+        buttonEffect(despawnList, respawnList);
 
         objList.Clear();
         envList.Clear();
@@ -222,5 +154,35 @@ public class Inventaire_UI_Gestion : MonoBehaviour
         reccomencerList.Clear();
         despawnList.Clear();
         respawnList.Clear();
+    }
+
+    public void buttonEffect(List<GameObject> despawnList, List<GameObject> respawnList)
+    {
+        foreach(GameObject despawn in despawnList)
+        {
+            if(despawn.GetComponent<variables>().isSocketed)
+            {
+                Renderer mesh = despawn.GetComponent<MeshRenderer>();
+                mesh.enabled = false;
+                List<Renderer> childrenMesh = new List<Renderer>();
+                childrenMesh.AddRange(despawn.GetComponentsInChildren<MeshRenderer>());
+                foreach(Renderer childMesh in childrenMesh)
+                {
+                    childMesh.enabled = false;
+                }
+            }
+        }
+
+        foreach(GameObject respawn in respawnList)
+        {
+            Renderer mesh = respawn.GetComponent<MeshRenderer>();
+            mesh.enabled = true;
+            List<Renderer> childrenMesh = new List<Renderer>();
+            childrenMesh.AddRange(respawn.GetComponentsInChildren<MeshRenderer>());
+            foreach(Renderer childMesh in childrenMesh)
+            {
+                    childMesh.enabled = true;
+            }
+        }
     }
 }
