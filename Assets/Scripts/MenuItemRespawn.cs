@@ -26,10 +26,12 @@ public class MenuItemRespawn : XRSocketInteractor
             
             GameObject cloneObj = obj.transform.gameObject;
             cloneObj.transform.parent = null;
+            cloneObj.GetComponent<variables>().isSocketed = false;
             GameObject refClone = Instantiate(cloneObj, interactor.attachTransform.position,interactor.attachTransform.rotation);
             listRef.GetComponent<InputManager>().listObjets.Add(refClone);
             listRef.GetComponent<InputManager>().socket.Add(interactor.attachTransform.transform.gameObject);
             refClone.transform.parent = null;
+            refClone.GetComponent<variables>().isSocketed = true;
             refClone.GetComponent<Rigidbody>().isKinematic = false;
             refClone.GetComponent<Rigidbody>().useGravity = true;
             yield return null;
