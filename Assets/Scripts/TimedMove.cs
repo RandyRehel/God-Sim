@@ -13,34 +13,38 @@ public class TimedMove : MonoBehaviour
     {
         moveTarget = gameObject;
         targetAnimator = gameObject.GetComponent<Animator>();
-
-        StartCoroutine(MoveCD());
+        
+        
     }
 
     private void FixedUpdate()
     {
         targetAnimator.SetFloat("Speed", moveTarget.GetComponent<Rigidbody>().velocity.magnitude);
+        if(gameObject.GetComponent<variables>().isSocketed == false)
+        {
+            StartCoroutine(MoveCD());
+        }
     }
 
     IEnumerator MoveCD()
     {
         while (true)
         {
-            //attendre 3 secondes avant chaque opération
+            //attendre 3 secondes avant chaque opï¿½ration
             yield return new WaitForSeconds(3);
             Move();
             yield return new WaitForSeconds(1);
-            //arrêter le mouvement du personnage
+            //arrï¿½ter le mouvement du personnage
             moveTarget.GetComponent<Rigidbody>().velocity = Vector3.zero;
         }
     }
 
     void Move()
     {
-        //génération d'un angle de rotation aléatoire
+        //gï¿½nï¿½ration d'un angle de rotation alï¿½atoire
         moveRotation = Random.Range(0, 180);
 
-        //on tourne le gameobject de l'angle généré
+        //on tourne le gameobject de l'angle gï¿½nï¿½rï¿½
         moveTarget.transform.Rotate(0, moveRotation, 0);
 
         //faire avancer le personnage

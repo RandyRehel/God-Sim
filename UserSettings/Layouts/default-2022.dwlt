@@ -14,44 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 8
-    y: 51
-    width: 2544
-    height: 981
+    x: 7.2000003
+    y: 50.4
+    width: 1521.6
+    height: 766.4
   m_ShowMode: 4
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    y: 43
-    width: 1920
-    height: 997
-  m_ShowMode: 4
-<<<<<<< HEAD
->>>>>>> e977535df50394f2983e7e4aa2ecabaa20d4d302
-  m_Title: Inspector
-=======
-<<<<<<< HEAD
-  m_Title: Game
->>>>>>> randy-prog-2
-  m_RootView: {fileID: 9}
-=======
-    y: 42.666668
-    width: 2560
-    height: 1357.3334
-  m_ShowMode: 4
-  m_Title: Scene
-  m_RootView: {fileID: 6}
->>>>>>> cabane-d-emmanuel
-=======
   m_Title: Hierarchy
-  m_RootView: {fileID: 6}
->>>>>>> LucasMolina
->>>>>>> e977535df50394f2983e7e4aa2ecabaa20d4d302
-=======
-  m_Title: Game
-  m_RootView: {fileID: 6}
->>>>>>> Jean
+  m_RootView: {fileID: 9}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 0
@@ -63,37 +32,17 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> e977535df50394f2983e7e4aa2ecabaa20d4d302
   m_EditorHideFlags: 0
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: GameView
-=======
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
->>>>>>> Jean
   m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 9}
-  - {fileID: 3}
+  m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-    y: 426
-    width: 988
-    height: 521
-=======
     y: 363.2
-    width: 835.2
+    width: 649.6
     height: 353.2
->>>>>>> randy-prog-2
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 19}
@@ -101,15 +50,6 @@ MonoBehaviour:
   - {fileID: 19}
   m_Selected: 0
   m_LastSelected: 0
-=======
-    y: 30
-    width: 2544
-    height: 931
-  m_MinSize: {x: 300, y: 100}
-  m_MaxSize: {x: 24288, y: 16192}
-  vertical: 0
-  controlID: 231
->>>>>>> Jean
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -118,38 +58,23 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: InspectorWindow
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
   m_EditorClassIdentifier: 
-  m_Children: []
+  m_Children:
+  - {fileID: 13}
+  - {fileID: 2}
   m_Position:
     serializedVersion: 2
-    x: 1845
+    x: 0
     y: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-    width: 988
-    height: 947
-=======
-    width: 835.2
+    width: 649.6
     height: 716.4
->>>>>>> randy-prog-2
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
   controlID: 30
-=======
-    width: 699
-    height: 931
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 14}
-  m_Panes:
-  - {fileID: 14}
-  m_Selected: 0
-  m_LastSelected: 0
->>>>>>> Jean
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -158,42 +83,25 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 1
+  m_EditorHideFlags: 0
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
+  m_Name: ProjectBrowser
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-    y: 314
-    width: 438
-    height: 633
+    y: 446.4
+    width: 528.80005
+    height: 270.00003
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
   m_ActualView: {fileID: 15}
-=======
-    y: 446.4
-    width: 343.2
-    height: 270.00003
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 20}
->>>>>>> randy-prog-2
-=======
-    y: 0
-    width: 458
-    height: 552
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 15}
->>>>>>> Jean
   m_Panes:
   - {fileID: 15}
+  - {fileID: 20}
   m_Selected: 0
-  m_LastSelected: 0
+  m_LastSelected: 1
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -202,47 +110,23 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectBrowser
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
   m_EditorClassIdentifier: 
-  m_Children: []
+  m_Children:
+  - {fileID: 6}
+  - {fileID: 4}
   m_Position:
     serializedVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-    x: 988
+    x: 649.6
     y: 0
-    width: 438
-    height: 947
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 8096, y: 16192}
-  vertical: 1
-  controlID: 78
-=======
-    x: 835.2
-    y: 0
-    width: 343.2
+    width: 528.80005
     height: 716.4
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
   controlID: 55
->>>>>>> randy-prog-2
-=======
-    x: 0
-    y: 552
-    width: 1845
-    height: 379
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 13}
-  m_Panes:
-  - {fileID: 13}
-  - {fileID: 18}
-  m_Selected: 0
-  m_LastSelected: 1
->>>>>>> Jean
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -251,7 +135,6 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-<<<<<<< HEAD
   m_EditorHideFlags: 0
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: SceneHierarchyWindow
@@ -261,18 +144,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    width: 436
-=======
-    width: 438
->>>>>>> LucasMolina
-    height: 314
-=======
-    width: 343.2
+    width: 528.80005
     height: 446.4
->>>>>>> randy-prog-2
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 17}
@@ -288,15 +161,13 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-=======
->>>>>>> LucasMolina
   m_EditorHideFlags: 1
   m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 9}
-  - {fileID: 3}
+  - {fileID: 12}
+  - {fileID: 8}
   m_Position:
     serializedVersion: 2
     x: 0
@@ -306,30 +177,8 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-<<<<<<< HEAD
-  controlID: 130
-=======
-<<<<<<< HEAD
   controlID: 109
->>>>>>> randy-prog-2
 --- !u!114 &8
-=======
-    width: 482
-    height: 773.3333
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 15}
-  m_Panes:
-  - {fileID: 15}
-  m_Selected: 0
-  m_LastSelected: 0
---- !u!114 &5
->>>>>>> cabane-d-emmanuel
-=======
-  controlID: 39
---- !u!114 &3
->>>>>>> LucasMolina
->>>>>>> e977535df50394f2983e7e4aa2ecabaa20d4d302
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -344,59 +193,18 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    x: 1597
-=======
-    x: 1426
->>>>>>> LucasMolina
-=======
-    x: 1469
->>>>>>> LucasMolina
-    y: 0
-    width: 451
-    height: 947
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
-<<<<<<< HEAD
-=======
     x: 1178.4
     y: 0
     width: 343.19995
     height: 716.4
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
->>>>>>> randy-prog-2
   m_ActualView: {fileID: 16}
-=======
-  m_ActualView: {fileID: 13}
->>>>>>> e977535df50394f2983e7e4aa2ecabaa20d4d302
   m_Panes:
-  - {fileID: 13}
+  - {fileID: 16}
   m_Selected: 0
   m_LastSelected: 0
-<<<<<<< HEAD
 --- !u!114 &9
-<<<<<<< HEAD
-=======
-=======
-    x: 0
-    y: 773.3333
-    width: 1954
-    height: 534.00006
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 13}
-  m_Panes:
-  - {fileID: 13}
-  - {fileID: 18}
-  m_Selected: 0
-  m_LastSelected: 1
---- !u!114 &6
->>>>>>> cabane-d-emmanuel
-=======
---- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -404,124 +212,27 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 362
-    height: 682
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 14}
-  m_Panes:
-  - {fileID: 14}
-  m_Selected: 0
-  m_LastSelected: 0
---- !u!114 &5
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectBrowser
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 682
-    width: 1469
-    height: 265
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 12}
-  m_Panes:
-  - {fileID: 12}
-  - {fileID: 17}
-  m_Selected: 0
-  m_LastSelected: 1
---- !u!114 &6
->>>>>>> LucasMolina
->>>>>>> e977535df50394f2983e7e4aa2ecabaa20d4d302
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-=======
->>>>>>> Jean
   m_EditorHideFlags: 1
   m_Script: {fileID: 12008, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-<<<<<<< HEAD
-<<<<<<< HEAD
   - {fileID: 10}
   - {fileID: 7}
   - {fileID: 11}
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-  - {fileID: 10}
-  - {fileID: 7}
-  - {fileID: 11}
-=======
-  - {fileID: 7}
-  - {fileID: 2}
-  - {fileID: 8}
->>>>>>> cabane-d-emmanuel
-=======
-  - {fileID: 7}
-  - {fileID: 2}
-  - {fileID: 8}
->>>>>>> LucasMolina
->>>>>>> e977535df50394f2983e7e4aa2ecabaa20d4d302
-=======
-  - {fileID: 7}
-  - {fileID: 2}
-  - {fileID: 8}
->>>>>>> Jean
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 2544
-    height: 981
+    width: 1521.6
+    height: 766.4
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
   m_UseBottomView: 1
   m_BottomViewHeight: 20
-<<<<<<< HEAD
-<<<<<<< HEAD
 --- !u!114 &10
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
---- !u!114 &10
-=======
---- !u!114 &7
->>>>>>> cabane-d-emmanuel
-=======
---- !u!114 &7
->>>>>>> LucasMolina
->>>>>>> e977535df50394f2983e7e4aa2ecabaa20d4d302
-=======
---- !u!114 &7
->>>>>>> Jean
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -538,29 +249,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 2544
+    width: 1521.6
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
-<<<<<<< HEAD
   m_LastLoadedLayoutName: 
-<<<<<<< HEAD
 --- !u!114 &11
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
---- !u!114 &11
-=======
---- !u!114 &8
->>>>>>> cabane-d-emmanuel
-=======
---- !u!114 &8
->>>>>>> LucasMolina
->>>>>>> e977535df50394f2983e7e4aa2ecabaa20d4d302
-=======
-  m_LastLoadedLayoutName: Default
---- !u!114 &8
->>>>>>> Jean
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -576,31 +270,12 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 961
-    width: 2544
+    y: 746.4
+    width: 1521.6
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
-<<<<<<< HEAD
-<<<<<<< HEAD
 --- !u!114 &12
-<<<<<<< HEAD
-=======
-=======
-    y: 1337.3334
-    width: 2560
-    height: 20
-  m_MinSize: {x: 0, y: 0}
-  m_MaxSize: {x: 0, y: 0}
---- !u!114 &9
->>>>>>> cabane-d-emmanuel
-=======
---- !u!114 &9
->>>>>>> LucasMolina
->>>>>>> e977535df50394f2983e7e4aa2ecabaa20d4d302
-=======
---- !u!114 &9
->>>>>>> Jean
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -613,123 +288,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-<<<<<<< HEAD
-<<<<<<< HEAD
   - {fileID: 3}
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-  - {fileID: 3}
-=======
-  - {fileID: 10}
->>>>>>> cabane-d-emmanuel
-=======
-  - {fileID: 10}
->>>>>>> LucasMolina
->>>>>>> e977535df50394f2983e7e4aa2ecabaa20d4d302
-=======
-  - {fileID: 10}
->>>>>>> Jean
   - {fileID: 5}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    width: 1597
-=======
-    width: 1426
->>>>>>> LucasMolina
-=======
-    width: 1469
->>>>>>> LucasMolina
-    height: 947
-  m_MinSize: {x: 200, y: 100}
-  m_MaxSize: {x: 16192, y: 16192}
-  vertical: 1
-  controlID: 40
---- !u!114 &10
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 4}
-  - {fileID: 11}
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1469
-    height: 682
-  m_MinSize: {x: 200, y: 50}
-  m_MaxSize: {x: 16192, y: 8096}
-  vertical: 0
-<<<<<<< HEAD
-  controlID: 28
-=======
     width: 1178.4
     height: 716.4
-=======
-    width: 1845
-    height: 931
->>>>>>> Jean
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
-  vertical: 1
-  controlID: 172
---- !u!114 &10
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 4}
-  - {fileID: 11}
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1845
-    height: 552
-  m_MinSize: {x: 200, y: 50}
-  m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
   controlID: 54
->>>>>>> randy-prog-2
 --- !u!114 &13
-=======
-  controlID: 42
---- !u!114 &11
->>>>>>> cabane-d-emmanuel
-=======
-  controlID: 41
---- !u!114 &11
->>>>>>> LucasMolina
->>>>>>> e977535df50394f2983e7e4aa2ecabaa20d4d302
-=======
-  controlID: 173
---- !u!114 &11
->>>>>>> Jean
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -744,64 +315,19 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> e977535df50394f2983e7e4aa2ecabaa20d4d302
     x: 0
-=======
-    x: 362
->>>>>>> LucasMolina
     y: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-    width: 988
-    height: 426
-  m_MinSize: {x: 101, y: 121}
+    width: 649.6
+    height: 363.2
+  m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 14}
-=======
-    width: 1107
-    height: 682
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 15}
->>>>>>> e977535df50394f2983e7e4aa2ecabaa20d4d302
+  m_ActualView: {fileID: 18}
   m_Panes:
-<<<<<<< HEAD
   - {fileID: 18}
   - {fileID: 14}
-  m_Selected: 1
-  m_LastSelected: 0
-=======
-    width: 835.2
-    height: 363.2
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 18}
-=======
-    x: 458
-    y: 0
-    width: 1387
-    height: 552
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 16}
->>>>>>> Jean
-  m_Panes:
-  - {fileID: 16}
-  - {fileID: 17}
-  - {fileID: 12}
   m_Selected: 0
   m_LastSelected: 1
-<<<<<<< HEAD
->>>>>>> randy-prog-2
 --- !u!114 &14
-=======
---- !u!114 &12
->>>>>>> Jean
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -816,57 +342,15 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    m_Text: brown (deleted)
-=======
-    m_Text: Eau
->>>>>>> cabane-d-emmanuel
-    m_Image: {fileID: 2800000, guid: 7129268cf102b2f45809905bcb27ce8b, type: 3}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-<<<<<<< HEAD
-    x: 363
-    y: 73
-    width: 1101
-    height: 547
-=======
-    x: 482
-    y: 72.66667
-    width: 1470
-    height: 752.3333
->>>>>>> cabane-d-emmanuel
-=======
     m_Text: Animator
-    m_Image: {fileID: -1673928668082335149, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: 1711060831702674872, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 73
-    width: 987
-    height: 405
->>>>>>> LucasMolina
-=======
-    m_Text: Animator
-    m_Image: {fileID: -1673928668082335149, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-<<<<<<< HEAD
     x: 0
     y: 73.6
     width: 843.8
     height: 349.4
->>>>>>> randy-prog-2
-=======
-    x: 466
-    y: 81
-    width: 1385
-    height: 531
->>>>>>> Jean
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -876,217 +360,18 @@ MonoBehaviour:
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  m_Selected: f14099c71adcb214b8ad5ab37b17236e
-  m_GraphObject: {fileID: 0}
-  m_LastSerializedFileContents: "{\n    \"m_SGVersion\": 3,\n    \"m_Type\": \"UnityEditor.ShaderGraph.GraphData\",\n   
-    \"m_ObjectId\": \"fc667b3325334c26afef92bb95fa8de7\",\n    \"m_Properties\":
-    [\n        {\n            \"m_Id\": \"f18639796226454aad66d94acaa81065\"\n       
-    }\n    ],\n    \"m_Keywords\": [],\n    \"m_Dropdowns\": [],\n    \"m_CategoryData\":
-    [\n        {\n            \"m_Id\": \"6bbdcca2932c4d7b83b5214feccab4d4\"\n       
-    }\n    ],\n    \"m_Nodes\": [\n        {\n            \"m_Id\": \"8b713529439d45b5881f2b4fabf170bb\"\n       
-    },\n        {\n            \"m_Id\": \"5b19c7796aa84f11aba59eec6fe0a3b1\"\n       
-    },\n        {\n            \"m_Id\": \"8b299fbcb47c46d2aa3e10daeceaa31f\"\n       
-    },\n        {\n            \"m_Id\": \"40734119bc7f45f19a06ee215d829008\"\n       
-    },\n        {\n            \"m_Id\": \"9adbd2176cd5472d9f8534eff8362dc3\"\n       
-    }\n    ],\n    \"m_GroupDatas\": [],\n    \"m_StickyNoteDatas\": [],\n    \"m_Edges\":
-    [\n        {\n            \"m_OutputSlot\": {\n                \"m_Node\": {\n                   
-    \"m_Id\": \"9adbd2176cd5472d9f8534eff8362dc3\"\n                },\n               
-    \"m_SlotId\": 0\n            },\n            \"m_InputSlot\": {\n               
-    \"m_Node\": {\n                    \"m_Id\": \"40734119bc7f45f19a06ee215d829008\"\n               
-    },\n                \"m_SlotId\": 0\n            }\n        }\n    ],\n    \"m_VertexContext\":
-    {\n        \"m_Position\": {\n            \"x\": 0.0,\n            \"y\": 0.0\n       
-    },\n        \"m_Blocks\": [\n            {\n                \"m_Id\": \"8b713529439d45b5881f2b4fabf170bb\"\n           
-    },\n            {\n                \"m_Id\": \"5b19c7796aa84f11aba59eec6fe0a3b1\"\n           
-    },\n            {\n                \"m_Id\": \"8b299fbcb47c46d2aa3e10daeceaa31f\"\n           
-    }\n        ]\n    },\n    \"m_FragmentContext\": {\n        \"m_Position\": {\n           
-    \"x\": 0.0,\n            \"y\": 200.0\n        },\n        \"m_Blocks\": [\n           
-    {\n                \"m_Id\": \"40734119bc7f45f19a06ee215d829008\"\n           
-=======
-  m_Selected: 5333090b8a87b7f41b5ecbd567fa5519
-  m_GraphObject: {fileID: 0}
-  m_LastSerializedFileContents: "{\n    \"m_SGVersion\": 3,\n    \"m_Type\": \"UnityEditor.ShaderGraph.GraphData\",\n   
-    \"m_ObjectId\": \"69cc92bc48354e0eb0a00fe83529e346\",\n    \"m_Properties\":
-    [],\n    \"m_Keywords\": [],\n    \"m_Dropdowns\": [],\n    \"m_CategoryData\":
-    [\n        {\n            \"m_Id\": \"c1031154d7694d9ca421f577736826bd\"\n       
-    }\n    ],\n    \"m_Nodes\": [\n        {\n            \"m_Id\": \"9b75f90d60374cd4af6201a2d7ca4358\"\n       
-    },\n        {\n            \"m_Id\": \"dbb6dc38ead24da188219c1de1e3d597\"\n       
-    },\n        {\n            \"m_Id\": \"8c402b31dbf543fca3c5320dd2a55259\"\n       
-    },\n        {\n            \"m_Id\": \"45d96a1e942d454cb3af93c0d635e671\"\n       
-    },\n        {\n            \"m_Id\": \"fc87b61bcc8a4f659e963fdb30a5a843\"\n       
-    },\n        {\n            \"m_Id\": \"155de44c3ee64473b27089a1de3379e6\"\n       
-    },\n        {\n            \"m_Id\": \"c9815b40385b496085de9f946f7e2a4c\"\n       
-    },\n        {\n            \"m_Id\": \"fad64f1f2b934991b074f228d63992ff\"\n       
-    },\n        {\n            \"m_Id\": \"e5b504d8cb5341e292fe8550a3158740\"\n       
-    }\n    ],\n    \"m_GroupDatas\": [],\n    \"m_StickyNoteDatas\": [],\n    \"m_Edges\":
-    [],\n    \"m_VertexContext\": {\n        \"m_Position\": {\n            \"x\":
-    0.0,\n            \"y\": 0.0\n        },\n        \"m_Blocks\": [\n           
-    {\n                \"m_Id\": \"9b75f90d60374cd4af6201a2d7ca4358\"\n           
-    },\n            {\n                \"m_Id\": \"dbb6dc38ead24da188219c1de1e3d597\"\n           
-    },\n            {\n                \"m_Id\": \"8c402b31dbf543fca3c5320dd2a55259\"\n           
-    }\n        ]\n    },\n    \"m_FragmentContext\": {\n        \"m_Position\": {\n           
-    \"x\": 0.0,\n            \"y\": 200.0\n        },\n        \"m_Blocks\": [\n           
-    {\n                \"m_Id\": \"45d96a1e942d454cb3af93c0d635e671\"\n           
-    },\n            {\n                \"m_Id\": \"fc87b61bcc8a4f659e963fdb30a5a843\"\n           
-    },\n            {\n                \"m_Id\": \"155de44c3ee64473b27089a1de3379e6\"\n           
-    },\n            {\n                \"m_Id\": \"c9815b40385b496085de9f946f7e2a4c\"\n           
-    },\n            {\n                \"m_Id\": \"fad64f1f2b934991b074f228d63992ff\"\n           
-    },\n            {\n                \"m_Id\": \"e5b504d8cb5341e292fe8550a3158740\"\n           
->>>>>>> cabane-d-emmanuel
-    }\n        ]\n    },\n    \"m_PreviewData\": {\n        \"serializedMesh\": {\n           
-    \"m_SerializedMesh\": \"{\\\"mesh\\\":{\\\"instanceID\\\":0}}\",\n           
-    \"m_Guid\": \"\"\n        },\n        \"preventRotation\": false\n    },\n   
-    \"m_Path\": \"Shader Graphs\",\n    \"m_GraphPrecision\": 1,\n    \"m_PreviewMode\":
-    2,\n    \"m_OutputNode\": {\n        \"m_Id\": \"\"\n    },\n    \"m_ActiveTargets\":
-<<<<<<< HEAD
-    [\n        {\n            \"m_Id\": \"bb25221372974dcb8d1cc45e1f111870\"\n       
-    }\n    ]\n}\n\n{\n    \"m_SGVersion\": 0,\n    \"m_Type\": \"UnityEditor.ShaderGraph.ColorRGBMaterialSlot\",\n   
-    \"m_ObjectId\": \"379dcbea990d49279895949a00c3d750\",\n    \"m_Id\": 0,\n   
-    \"m_DisplayName\": \"Base Color\",\n    \"m_SlotType\": 0,\n    \"m_Hidden\":
-    false,\n    \"m_ShaderOutputName\": \"BaseColor\",\n    \"m_StageCapability\":
-    2,\n    \"m_Value\": {\n        \"x\": 0.2924528121948242,\n        \"y\": 0.22780795395374299,\n       
-    \"z\": 0.037246350198984149\n    },\n    \"m_DefaultValue\": {\n        \"x\":
-    0.0,\n        \"y\": 0.0,\n        \"z\": 0.0\n    },\n    \"m_Labels\": [],\n   
-    \"m_ColorMode\": 0,\n    \"m_DefaultColor\": {\n        \"r\": 0.5,\n       
-    \"g\": 0.5,\n        \"b\": 0.5,\n        \"a\": 1.0\n    }\n}\n\n{\n    \"m_SGVersion\":
-    0,\n    \"m_Type\": \"UnityEditor.ShaderGraph.BlockNode\",\n    \"m_ObjectId\":
-    \"40734119bc7f45f19a06ee215d829008\",\n    \"m_Group\": {\n        \"m_Id\":
-    \"\"\n    },\n    \"m_Name\": \"SurfaceDescription.BaseColor\",\n    \"m_DrawState\":
-    {\n        \"m_Expanded\": true,\n        \"m_Position\": {\n            \"serializedVersion\":
-    \"2\",\n            \"x\": 0.0,\n            \"y\": 0.0,\n            \"width\":
-    0.0,\n            \"height\": 0.0\n        }\n    },\n    \"m_Slots\": [\n       
-    {\n            \"m_Id\": \"379dcbea990d49279895949a00c3d750\"\n        }\n   
-    ],\n    \"synonyms\": [],\n    \"m_Precision\": 0,\n    \"m_PreviewExpanded\":
-    true,\n    \"m_PreviewMode\": 0,\n    \"m_CustomColors\": {\n        \"m_SerializableColors\":
-    []\n    },\n    \"m_SerializedDescriptor\": \"SurfaceDescription.BaseColor\"\n}\n\n{\n   
-    \"m_SGVersion\": 0,\n    \"m_Type\": \"UnityEditor.ShaderGraph.BlockNode\",\n   
-    \"m_ObjectId\": \"5b19c7796aa84f11aba59eec6fe0a3b1\",\n    \"m_Group\": {\n       
-    \"m_Id\": \"\"\n    },\n    \"m_Name\": \"VertexDescription.Normal\",\n    \"m_DrawState\":
-    {\n        \"m_Expanded\": true,\n        \"m_Position\": {\n            \"serializedVersion\":
-    \"2\",\n            \"x\": 0.0,\n            \"y\": 0.0,\n            \"width\":
-    0.0,\n            \"height\": 0.0\n        }\n    },\n    \"m_Slots\": [\n       
-    {\n            \"m_Id\": \"7cbba1a67482430eab6b316f645c9bc2\"\n        }\n   
-    ],\n    \"synonyms\": [],\n    \"m_Precision\": 0,\n    \"m_PreviewExpanded\":
-    true,\n    \"m_PreviewMode\": 0,\n    \"m_CustomColors\": {\n        \"m_SerializableColors\":
-    []\n    },\n    \"m_SerializedDescriptor\": \"VertexDescription.Normal\"\n}\n\n{\n   
-    \"m_SGVersion\": 0,\n    \"m_Type\": \"UnityEditor.Rendering.Universal.ShaderGraph.UniversalUnlitSubTarget\",\n   
-    \"m_ObjectId\": \"60bd638de4a542f1b994a348394a760e\"\n}\n\n{\n    \"m_SGVersion\":
-    0,\n    \"m_Type\": \"UnityEditor.ShaderGraph.CategoryData\",\n    \"m_ObjectId\":
-    \"6bbdcca2932c4d7b83b5214feccab4d4\",\n    \"m_Name\": \"\",\n    \"m_ChildObjectList\":
-    [\n        {\n            \"m_Id\": \"f18639796226454aad66d94acaa81065\"\n       
-    }\n    ]\n}\n\n{\n    \"m_SGVersion\": 0,\n    \"m_Type\": \"UnityEditor.ShaderGraph.NormalMaterialSlot\",\n   
-    \"m_ObjectId\": \"7cbba1a67482430eab6b316f645c9bc2\",\n    \"m_Id\": 0,\n   
-    \"m_DisplayName\": \"Normal\",\n    \"m_SlotType\": 0,\n    \"m_Hidden\": false,\n   
-    \"m_ShaderOutputName\": \"Normal\",\n    \"m_StageCapability\": 1,\n    \"m_Value\":
-    {\n        \"x\": 0.0,\n        \"y\": 0.0,\n        \"z\": 0.0\n    },\n   
-    \"m_DefaultValue\": {\n        \"x\": 0.0,\n        \"y\": 0.0,\n        \"z\":
-    0.0\n    },\n    \"m_Labels\": [],\n    \"m_Space\": 0\n}\n\n{\n    \"m_SGVersion\":
-    0,\n    \"m_Type\": \"UnityEditor.ShaderGraph.BlockNode\",\n    \"m_ObjectId\":
-    \"8b299fbcb47c46d2aa3e10daeceaa31f\",\n    \"m_Group\": {\n        \"m_Id\":
-    \"\"\n    },\n    \"m_Name\": \"VertexDescription.Tangent\",\n    \"m_DrawState\":
-    {\n        \"m_Expanded\": true,\n        \"m_Position\": {\n            \"serializedVersion\":
-    \"2\",\n            \"x\": 0.0,\n            \"y\": 0.0,\n            \"width\":
-    0.0,\n            \"height\": 0.0\n        }\n    },\n    \"m_Slots\": [\n       
-    {\n            \"m_Id\": \"e7c4f6823512413c9d585d3c6238266c\"\n        }\n   
-    ],\n    \"synonyms\": [],\n    \"m_Precision\": 0,\n    \"m_PreviewExpanded\":
-    true,\n    \"m_PreviewMode\": 0,\n    \"m_CustomColors\": {\n        \"m_SerializableColors\":
-    []\n    },\n    \"m_SerializedDescriptor\": \"VertexDescription.Tangent\"\n}\n\n{\n   
-    \"m_SGVersion\": 0,\n    \"m_Type\": \"UnityEditor.ShaderGraph.BlockNode\",\n   
-    \"m_ObjectId\": \"8b713529439d45b5881f2b4fabf170bb\",\n    \"m_Group\": {\n       
-    \"m_Id\": \"\"\n    },\n    \"m_Name\": \"VertexDescription.Position\",\n   
-    \"m_DrawState\": {\n        \"m_Expanded\": true,\n        \"m_Position\": {\n           
-    \"serializedVersion\": \"2\",\n            \"x\": 0.0,\n            \"y\": 0.0,\n           
-    \"width\": 0.0,\n            \"height\": 0.0\n        }\n    },\n    \"m_Slots\":
-    [\n        {\n            \"m_Id\": \"b590854fa2724e4a8c82f893408a1880\"\n       
-    }\n    ],\n    \"synonyms\": [],\n    \"m_Precision\": 0,\n    \"m_PreviewExpanded\":
-    true,\n    \"m_PreviewMode\": 0,\n    \"m_CustomColors\": {\n        \"m_SerializableColors\":
-    []\n    },\n    \"m_SerializedDescriptor\": \"VertexDescription.Position\"\n}\n\n{\n   
-    \"m_SGVersion\": 0,\n    \"m_Type\": \"UnityEditor.ShaderGraph.PropertyNode\",\n   
-    \"m_ObjectId\": \"9adbd2176cd5472d9f8534eff8362dc3\",\n    \"m_Group\": {\n       
-    \"m_Id\": \"\"\n    },\n    \"m_Name\": \"Property\",\n    \"m_DrawState\": {\n       
-    \"m_Expanded\": true,\n        \"m_Position\": {\n            \"serializedVersion\":
-    \"2\",\n            \"x\": -241.0,\n            \"y\": 239.0,\n            \"width\":
-    0.0,\n            \"height\": 0.0\n        }\n    },\n    \"m_Slots\": [\n       
-    {\n            \"m_Id\": \"e54dfda99c5740dcaecf2fe38b4e2084\"\n        }\n   
-    ],\n    \"synonyms\": [],\n    \"m_Precision\": 0,\n    \"m_PreviewExpanded\":
-    true,\n    \"m_PreviewMode\": 0,\n    \"m_CustomColors\": {\n        \"m_SerializableColors\":
-    []\n    },\n    \"m_Property\": {\n        \"m_Id\": \"f18639796226454aad66d94acaa81065\"\n   
-    }\n}\n\n{\n    \"m_SGVersion\": 0,\n    \"m_Type\": \"UnityEditor.ShaderGraph.PositionMaterialSlot\",\n   
-    \"m_ObjectId\": \"b590854fa2724e4a8c82f893408a1880\",\n    \"m_Id\": 0,\n   
-    \"m_DisplayName\": \"Position\",\n    \"m_SlotType\": 0,\n    \"m_Hidden\": false,\n   
-    \"m_ShaderOutputName\": \"Position\",\n    \"m_StageCapability\": 1,\n    \"m_Value\":
-    {\n        \"x\": 0.0,\n        \"y\": 0.0,\n        \"z\": 0.0\n    },\n   
-    \"m_DefaultValue\": {\n        \"x\": 0.0,\n        \"y\": 0.0,\n        \"z\":
-    0.0\n    },\n    \"m_Labels\": [],\n    \"m_Space\": 0\n}\n\n{\n    \"m_SGVersion\":
-    1,\n    \"m_Type\": \"UnityEditor.Rendering.Universal.ShaderGraph.UniversalTarget\",\n   
-    \"m_ObjectId\": \"bb25221372974dcb8d1cc45e1f111870\",\n    \"m_ActiveSubTarget\":
-    {\n        \"m_Id\": \"60bd638de4a542f1b994a348394a760e\"\n    },\n    \"m_AllowMaterialOverride\":
-    false,\n    \"m_SurfaceType\": 0,\n    \"m_ZTestMode\": 4,\n    \"m_ZWriteControl\":
-    0,\n    \"m_AlphaMode\": 0,\n    \"m_RenderFace\": 2,\n    \"m_AlphaClip\": false,\n   
-    \"m_CastShadows\": true,\n    \"m_ReceiveShadows\": true,\n    \"m_CustomEditorGUI\":
-    \"\",\n    \"m_SupportVFX\": false\n}\n\n{\n    \"m_SGVersion\": 0,\n    \"m_Type\":
-    \"UnityEditor.ShaderGraph.Vector4MaterialSlot\",\n    \"m_ObjectId\": \"e54dfda99c5740dcaecf2fe38b4e2084\",\n   
-    \"m_Id\": 0,\n    \"m_DisplayName\": \"Color\",\n    \"m_SlotType\": 1,\n   
-    \"m_Hidden\": false,\n    \"m_ShaderOutputName\": \"Out\",\n    \"m_StageCapability\":
-    3,\n    \"m_Value\": {\n        \"x\": 0.0,\n        \"y\": 0.0,\n        \"z\":
-    0.0,\n        \"w\": 0.0\n    },\n    \"m_DefaultValue\": {\n        \"x\": 0.0,\n       
-    \"y\": 0.0,\n        \"z\": 0.0,\n        \"w\": 0.0\n    },\n    \"m_Labels\":
-    []\n}\n\n{\n    \"m_SGVersion\": 0,\n    \"m_Type\": \"UnityEditor.ShaderGraph.TangentMaterialSlot\",\n   
-    \"m_ObjectId\": \"e7c4f6823512413c9d585d3c6238266c\",\n    \"m_Id\": 0,\n   
-    \"m_DisplayName\": \"Tangent\",\n    \"m_SlotType\": 0,\n    \"m_Hidden\": false,\n   
-    \"m_ShaderOutputName\": \"Tangent\",\n    \"m_StageCapability\": 1,\n    \"m_Value\":
-    {\n        \"x\": 0.0,\n        \"y\": 0.0,\n        \"z\": 0.0\n    },\n   
-    \"m_DefaultValue\": {\n        \"x\": 0.0,\n        \"y\": 0.0,\n        \"z\":
-    0.0\n    },\n    \"m_Labels\": [],\n    \"m_Space\": 0\n}\n\n{\n    \"m_SGVersion\":
-    3,\n    \"m_Type\": \"UnityEditor.ShaderGraph.Internal.ColorShaderProperty\",\n   
-    \"m_ObjectId\": \"f18639796226454aad66d94acaa81065\",\n    \"m_Guid\": {\n       
-    \"m_GuidSerialized\": \"b1b45bda-7eda-40a2-9d3c-ffe8ac0a6267\"\n    },\n    \"m_Name\":
-    \"Color\",\n    \"m_DefaultRefNameVersion\": 1,\n    \"m_RefNameGeneratedByDisplayName\":
-    \"Color\",\n    \"m_DefaultReferenceName\": \"_Color\",\n    \"m_OverrideReferenceName\":
-    \"\",\n    \"m_GeneratePropertyBlock\": true,\n    \"m_UseCustomSlotLabel\":
-    false,\n    \"m_CustomSlotLabel\": \"\",\n    \"m_Precision\": 0,\n    \"overrideHLSLDeclaration\":
-    false,\n    \"hlslDeclarationOverride\": 0,\n    \"m_Hidden\": false,\n    \"m_Value\":
-    {\n        \"r\": 0.2924528121948242,\n        \"g\": 0.18526364862918855,\n       
-    \"b\": 0.04000534489750862,\n        \"a\": 0.0\n    },\n    \"isMainColor\":
-    false,\n    \"m_ColorMode\": 0\n}\n\n"
-  m_AssetMaybeChangedOnDisk: 0
-  m_AssetMaybeDeleted: 1
-=======
-=======
->>>>>>> randy-prog-2
   m_ViewTransforms:
     m_KeySerializationHelper:
     - {fileID: 2359367411013007139, guid: 0be6adf8f8fbdb7429e9bf7108dbfbab, type: 2}
     m_ValueSerializationHelper:
-<<<<<<< HEAD
-<<<<<<< HEAD
-    - e00: 0.65952146
-      e01: 0
-      e02: 0
-      e03: 258.12024
-      e10: 0
-      e11: 0.65952146
-      e12: 0
-      e13: 9.262711
-=======
     - e00: 0.6095652
-=======
-    - e00: 0.7603531
->>>>>>> Jean
       e01: 0
       e02: 0
-      e03: 402.17032
+      e03: 65.33913
       e10: 0
-      e11: 0.7603531
+      e11: 0.6095652
       e12: 0
-<<<<<<< HEAD
       e13: 51.573914
->>>>>>> randy-prog-2
-=======
-      e13: 113.34618
->>>>>>> Jean
       e20: 0
       e21: 0
       e22: 1
@@ -1108,196 +393,10 @@ MonoBehaviour:
   m_MiniTool: 0
   m_LockTracker:
     m_IsLocked: 0
-  m_CurrentEditor: 1
+  m_CurrentEditor: 0
   m_LayerEditor:
     m_SelectedLayerIndex: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> LucasMolina
-=======
-<<<<<<< HEAD
->>>>>>> randy-prog-2
 --- !u!114 &15
-=======
-    [\n        {\n            \"m_Id\": \"2a2780b723b54097b4f9d5067e7e3734\"\n       
-    }\n    ]\n}\n\n{\n    \"m_SGVersion\": 0,\n    \"m_Type\": \"UnityEditor.ShaderGraph.PositionMaterialSlot\",\n   
-    \"m_ObjectId\": \"0eb2c0192ad2486387dfc87db9bab4b3\",\n    \"m_Id\": 0,\n   
-    \"m_DisplayName\": \"Position\",\n    \"m_SlotType\": 0,\n    \"m_Hidden\": false,\n   
-    \"m_ShaderOutputName\": \"Position\",\n    \"m_StageCapability\": 1,\n    \"m_Value\":
-    {\n        \"x\": 0.0,\n        \"y\": 0.0,\n        \"z\": 0.0\n    },\n   
-    \"m_DefaultValue\": {\n        \"x\": 0.0,\n        \"y\": 0.0,\n        \"z\":
-    0.0\n    },\n    \"m_Labels\": [],\n    \"m_Space\": 0\n}\n\n{\n    \"m_SGVersion\":
-    0,\n    \"m_Type\": \"UnityEditor.ShaderGraph.BlockNode\",\n    \"m_ObjectId\":
-    \"155de44c3ee64473b27089a1de3379e6\",\n    \"m_Group\": {\n        \"m_Id\":
-    \"\"\n    },\n    \"m_Name\": \"SurfaceDescription.Metallic\",\n    \"m_DrawState\":
-    {\n        \"m_Expanded\": true,\n        \"m_Position\": {\n            \"serializedVersion\":
-    \"2\",\n            \"x\": 0.0,\n            \"y\": 0.0,\n            \"width\":
-    0.0,\n            \"height\": 0.0\n        }\n    },\n    \"m_Slots\": [\n       
-    {\n            \"m_Id\": \"f0d80f785aed4cc59a91be91c8943651\"\n        }\n   
-    ],\n    \"synonyms\": [],\n    \"m_Precision\": 0,\n    \"m_PreviewExpanded\":
-    true,\n    \"m_DismissedVersion\": 0,\n    \"m_PreviewMode\": 0,\n    \"m_CustomColors\":
-    {\n        \"m_SerializableColors\": []\n    },\n    \"m_SerializedDescriptor\":
-    \"SurfaceDescription.Metallic\"\n}\n\n{\n    \"m_SGVersion\": 0,\n    \"m_Type\":
-    \"UnityEditor.ShaderGraph.ColorRGBMaterialSlot\",\n    \"m_ObjectId\": \"1a78f2f07a704fa1a1fed5790c01a58c\",\n   
-    \"m_Id\": 0,\n    \"m_DisplayName\": \"Emission\",\n    \"m_SlotType\": 0,\n   
-    \"m_Hidden\": false,\n    \"m_ShaderOutputName\": \"Emission\",\n    \"m_StageCapability\":
-    2,\n    \"m_Value\": {\n        \"x\": 0.0,\n        \"y\": 0.0,\n        \"z\":
-    0.0\n    },\n    \"m_DefaultValue\": {\n        \"x\": 0.0,\n        \"y\": 0.0,\n       
-    \"z\": 0.0\n    },\n    \"m_Labels\": [],\n    \"m_ColorMode\": 1,\n    \"m_DefaultColor\":
-    {\n        \"r\": 0.0,\n        \"g\": 0.0,\n        \"b\": 0.0,\n        \"a\":
-    1.0\n    }\n}\n\n{\n    \"m_SGVersion\": 1,\n    \"m_Type\": \"UnityEditor.Rendering.Universal.ShaderGraph.UniversalTarget\",\n   
-    \"m_ObjectId\": \"2a2780b723b54097b4f9d5067e7e3734\",\n    \"m_Datas\": [],\n   
-    \"m_ActiveSubTarget\": {\n        \"m_Id\": \"7c400a354db34eda8a131fa721375624\"\n   
-    },\n    \"m_AllowMaterialOverride\": false,\n    \"m_SurfaceType\": 0,\n    \"m_ZTestMode\":
-    4,\n    \"m_ZWriteControl\": 0,\n    \"m_AlphaMode\": 0,\n    \"m_RenderFace\":
-    2,\n    \"m_AlphaClip\": false,\n    \"m_CastShadows\": true,\n    \"m_ReceiveShadows\":
-    true,\n    \"m_SupportsLODCrossFade\": false,\n    \"m_CustomEditorGUI\": \"\",\n   
-    \"m_SupportVFX\": false\n}\n\n{\n    \"m_SGVersion\": 0,\n    \"m_Type\": \"UnityEditor.ShaderGraph.TangentMaterialSlot\",\n   
-    \"m_ObjectId\": \"34f9daa81cf841f2b63b446ab523309b\",\n    \"m_Id\": 0,\n   
-    \"m_DisplayName\": \"Tangent\",\n    \"m_SlotType\": 0,\n    \"m_Hidden\": false,\n   
-    \"m_ShaderOutputName\": \"Tangent\",\n    \"m_StageCapability\": 1,\n    \"m_Value\":
-    {\n        \"x\": 0.0,\n        \"y\": 0.0,\n        \"z\": 0.0\n    },\n   
-    \"m_DefaultValue\": {\n        \"x\": 0.0,\n        \"y\": 0.0,\n        \"z\":
-    0.0\n    },\n    \"m_Labels\": [],\n    \"m_Space\": 0\n}\n\n{\n    \"m_SGVersion\":
-    0,\n    \"m_Type\": \"UnityEditor.ShaderGraph.BlockNode\",\n    \"m_ObjectId\":
-    \"45d96a1e942d454cb3af93c0d635e671\",\n    \"m_Group\": {\n        \"m_Id\":
-    \"\"\n    },\n    \"m_Name\": \"SurfaceDescription.BaseColor\",\n    \"m_DrawState\":
-    {\n        \"m_Expanded\": true,\n        \"m_Position\": {\n            \"serializedVersion\":
-    \"2\",\n            \"x\": 0.0,\n            \"y\": 0.0,\n            \"width\":
-    0.0,\n            \"height\": 0.0\n        }\n    },\n    \"m_Slots\": [\n       
-    {\n            \"m_Id\": \"470b98f765c54b1bbc803e085b0163e7\"\n        }\n   
-    ],\n    \"synonyms\": [],\n    \"m_Precision\": 0,\n    \"m_PreviewExpanded\":
-    true,\n    \"m_DismissedVersion\": 0,\n    \"m_PreviewMode\": 0,\n    \"m_CustomColors\":
-    {\n        \"m_SerializableColors\": []\n    },\n    \"m_SerializedDescriptor\":
-    \"SurfaceDescription.BaseColor\"\n}\n\n{\n    \"m_SGVersion\": 0,\n    \"m_Type\":
-    \"UnityEditor.ShaderGraph.ColorRGBMaterialSlot\",\n    \"m_ObjectId\": \"470b98f765c54b1bbc803e085b0163e7\",\n   
-    \"m_Id\": 0,\n    \"m_DisplayName\": \"Base Color\",\n    \"m_SlotType\": 0,\n   
-    \"m_Hidden\": false,\n    \"m_ShaderOutputName\": \"BaseColor\",\n    \"m_StageCapability\":
-    2,\n    \"m_Value\": {\n        \"x\": 0.16862745583057404,\n        \"y\": 0.3803921639919281,\n       
-    \"z\": 0.5647059082984924\n    },\n    \"m_DefaultValue\": {\n        \"x\":
-    0.0,\n        \"y\": 0.0,\n        \"z\": 0.0\n    },\n    \"m_Labels\": [],\n   
-    \"m_ColorMode\": 0,\n    \"m_DefaultColor\": {\n        \"r\": 0.5,\n       
-    \"g\": 0.5,\n        \"b\": 0.5,\n        \"a\": 1.0\n    }\n}\n\n{\n    \"m_SGVersion\":
-    0,\n    \"m_Type\": \"UnityEditor.ShaderGraph.NormalMaterialSlot\",\n    \"m_ObjectId\":
-    \"4a656eb71dca4dd1a291044fdb423c4a\",\n    \"m_Id\": 0,\n    \"m_DisplayName\":
-    \"Normal\",\n    \"m_SlotType\": 0,\n    \"m_Hidden\": false,\n    \"m_ShaderOutputName\":
-    \"Normal\",\n    \"m_StageCapability\": 1,\n    \"m_Value\": {\n        \"x\":
-    0.0,\n        \"y\": 0.0,\n        \"z\": 0.0\n    },\n    \"m_DefaultValue\":
-    {\n        \"x\": 0.0,\n        \"y\": 0.0,\n        \"z\": 0.0\n    },\n   
-    \"m_Labels\": [],\n    \"m_Space\": 0\n}\n\n{\n    \"m_SGVersion\": 0,\n    \"m_Type\":
-    \"UnityEditor.ShaderGraph.Vector1MaterialSlot\",\n    \"m_ObjectId\": \"605717ab9a784d7a863f38cec453b2b0\",\n   
-    \"m_Id\": 0,\n    \"m_DisplayName\": \"Ambient Occlusion\",\n    \"m_SlotType\":
-    0,\n    \"m_Hidden\": false,\n    \"m_ShaderOutputName\": \"Occlusion\",\n   
-    \"m_StageCapability\": 2,\n    \"m_Value\": 1.0,\n    \"m_DefaultValue\": 1.0,\n   
-    \"m_Labels\": []\n}\n\n{\n    \"m_SGVersion\": 2,\n    \"m_Type\": \"UnityEditor.Rendering.Universal.ShaderGraph.UniversalLitSubTarget\",\n   
-    \"m_ObjectId\": \"7c400a354db34eda8a131fa721375624\",\n    \"m_WorkflowMode\":
-    1,\n    \"m_NormalDropOffSpace\": 0,\n    \"m_ClearCoat\": false,\n    \"m_BlendModePreserveSpecular\":
-    true\n}\n\n{\n    \"m_SGVersion\": 0,\n    \"m_Type\": \"UnityEditor.ShaderGraph.BlockNode\",\n   
-    \"m_ObjectId\": \"8c402b31dbf543fca3c5320dd2a55259\",\n    \"m_Group\": {\n       
-    \"m_Id\": \"\"\n    },\n    \"m_Name\": \"VertexDescription.Tangent\",\n    \"m_DrawState\":
-    {\n        \"m_Expanded\": true,\n        \"m_Position\": {\n            \"serializedVersion\":
-    \"2\",\n            \"x\": 0.0,\n            \"y\": 0.0,\n            \"width\":
-    0.0,\n            \"height\": 0.0\n        }\n    },\n    \"m_Slots\": [\n       
-    {\n            \"m_Id\": \"34f9daa81cf841f2b63b446ab523309b\"\n        }\n   
-    ],\n    \"synonyms\": [],\n    \"m_Precision\": 0,\n    \"m_PreviewExpanded\":
-    true,\n    \"m_DismissedVersion\": 0,\n    \"m_PreviewMode\": 0,\n    \"m_CustomColors\":
-    {\n        \"m_SerializableColors\": []\n    },\n    \"m_SerializedDescriptor\":
-    \"VertexDescription.Tangent\"\n}\n\n{\n    \"m_SGVersion\": 0,\n    \"m_Type\":
-    \"UnityEditor.ShaderGraph.BlockNode\",\n    \"m_ObjectId\": \"9b75f90d60374cd4af6201a2d7ca4358\",\n   
-    \"m_Group\": {\n        \"m_Id\": \"\"\n    },\n    \"m_Name\": \"VertexDescription.Position\",\n   
-    \"m_DrawState\": {\n        \"m_Expanded\": true,\n        \"m_Position\": {\n           
-    \"serializedVersion\": \"2\",\n            \"x\": 0.0,\n            \"y\": 0.0,\n           
-    \"width\": 0.0,\n            \"height\": 0.0\n        }\n    },\n    \"m_Slots\":
-    [\n        {\n            \"m_Id\": \"0eb2c0192ad2486387dfc87db9bab4b3\"\n       
-    }\n    ],\n    \"synonyms\": [],\n    \"m_Precision\": 0,\n    \"m_PreviewExpanded\":
-    true,\n    \"m_DismissedVersion\": 0,\n    \"m_PreviewMode\": 0,\n    \"m_CustomColors\":
-    {\n        \"m_SerializableColors\": []\n    },\n    \"m_SerializedDescriptor\":
-    \"VertexDescription.Position\"\n}\n\n{\n    \"m_SGVersion\": 0,\n    \"m_Type\":
-    \"UnityEditor.ShaderGraph.CategoryData\",\n    \"m_ObjectId\": \"c1031154d7694d9ca421f577736826bd\",\n   
-    \"m_Name\": \"\",\n    \"m_ChildObjectList\": []\n}\n\n{\n    \"m_SGVersion\":
-    0,\n    \"m_Type\": \"UnityEditor.ShaderGraph.BlockNode\",\n    \"m_ObjectId\":
-    \"c9815b40385b496085de9f946f7e2a4c\",\n    \"m_Group\": {\n        \"m_Id\":
-    \"\"\n    },\n    \"m_Name\": \"SurfaceDescription.Smoothness\",\n    \"m_DrawState\":
-    {\n        \"m_Expanded\": true,\n        \"m_Position\": {\n            \"serializedVersion\":
-    \"2\",\n            \"x\": 0.0,\n            \"y\": 0.0,\n            \"width\":
-    0.0,\n            \"height\": 0.0\n        }\n    },\n    \"m_Slots\": [\n       
-    {\n            \"m_Id\": \"e87de869ab154dfa892ec1959d566780\"\n        }\n   
-    ],\n    \"synonyms\": [],\n    \"m_Precision\": 0,\n    \"m_PreviewExpanded\":
-    true,\n    \"m_DismissedVersion\": 0,\n    \"m_PreviewMode\": 0,\n    \"m_CustomColors\":
-    {\n        \"m_SerializableColors\": []\n    },\n    \"m_SerializedDescriptor\":
-    \"SurfaceDescription.Smoothness\"\n}\n\n{\n    \"m_SGVersion\": 0,\n    \"m_Type\":
-    \"UnityEditor.ShaderGraph.BlockNode\",\n    \"m_ObjectId\": \"dbb6dc38ead24da188219c1de1e3d597\",\n   
-    \"m_Group\": {\n        \"m_Id\": \"\"\n    },\n    \"m_Name\": \"VertexDescription.Normal\",\n   
-    \"m_DrawState\": {\n        \"m_Expanded\": true,\n        \"m_Position\": {\n           
-    \"serializedVersion\": \"2\",\n            \"x\": 0.0,\n            \"y\": 0.0,\n           
-    \"width\": 0.0,\n            \"height\": 0.0\n        }\n    },\n    \"m_Slots\":
-    [\n        {\n            \"m_Id\": \"4a656eb71dca4dd1a291044fdb423c4a\"\n       
-    }\n    ],\n    \"synonyms\": [],\n    \"m_Precision\": 0,\n    \"m_PreviewExpanded\":
-    true,\n    \"m_DismissedVersion\": 0,\n    \"m_PreviewMode\": 0,\n    \"m_CustomColors\":
-    {\n        \"m_SerializableColors\": []\n    },\n    \"m_SerializedDescriptor\":
-    \"VertexDescription.Normal\"\n}\n\n{\n    \"m_SGVersion\": 0,\n    \"m_Type\":
-    \"UnityEditor.ShaderGraph.NormalMaterialSlot\",\n    \"m_ObjectId\": \"e0444a2f44f94c72ac3ba1bb80277852\",\n   
-    \"m_Id\": 0,\n    \"m_DisplayName\": \"Normal (Tangent Space)\",\n    \"m_SlotType\":
-    0,\n    \"m_Hidden\": false,\n    \"m_ShaderOutputName\": \"NormalTS\",\n   
-    \"m_StageCapability\": 2,\n    \"m_Value\": {\n        \"x\": 0.0,\n        \"y\":
-    0.0,\n        \"z\": 0.0\n    },\n    \"m_DefaultValue\": {\n        \"x\": 0.0,\n       
-    \"y\": 0.0,\n        \"z\": 0.0\n    },\n    \"m_Labels\": [],\n    \"m_Space\":
-    3\n}\n\n{\n    \"m_SGVersion\": 0,\n    \"m_Type\": \"UnityEditor.ShaderGraph.BlockNode\",\n   
-    \"m_ObjectId\": \"e5b504d8cb5341e292fe8550a3158740\",\n    \"m_Group\": {\n       
-    \"m_Id\": \"\"\n    },\n    \"m_Name\": \"SurfaceDescription.Occlusion\",\n   
-    \"m_DrawState\": {\n        \"m_Expanded\": true,\n        \"m_Position\": {\n           
-    \"serializedVersion\": \"2\",\n            \"x\": 0.0,\n            \"y\": 0.0,\n           
-    \"width\": 0.0,\n            \"height\": 0.0\n        }\n    },\n    \"m_Slots\":
-    [\n        {\n            \"m_Id\": \"605717ab9a784d7a863f38cec453b2b0\"\n       
-    }\n    ],\n    \"synonyms\": [],\n    \"m_Precision\": 0,\n    \"m_PreviewExpanded\":
-    true,\n    \"m_DismissedVersion\": 0,\n    \"m_PreviewMode\": 0,\n    \"m_CustomColors\":
-    {\n        \"m_SerializableColors\": []\n    },\n    \"m_SerializedDescriptor\":
-    \"SurfaceDescription.Occlusion\"\n}\n\n{\n    \"m_SGVersion\": 0,\n    \"m_Type\":
-    \"UnityEditor.ShaderGraph.Vector1MaterialSlot\",\n    \"m_ObjectId\": \"e87de869ab154dfa892ec1959d566780\",\n   
-    \"m_Id\": 0,\n    \"m_DisplayName\": \"Smoothness\",\n    \"m_SlotType\": 0,\n   
-    \"m_Hidden\": false,\n    \"m_ShaderOutputName\": \"Smoothness\",\n    \"m_StageCapability\":
-    2,\n    \"m_Value\": 0.5,\n    \"m_DefaultValue\": 0.5,\n    \"m_Labels\": []\n}\n\n{\n   
-    \"m_SGVersion\": 0,\n    \"m_Type\": \"UnityEditor.ShaderGraph.Vector1MaterialSlot\",\n   
-    \"m_ObjectId\": \"f0d80f785aed4cc59a91be91c8943651\",\n    \"m_Id\": 0,\n   
-    \"m_DisplayName\": \"Metallic\",\n    \"m_SlotType\": 0,\n    \"m_Hidden\": false,\n   
-    \"m_ShaderOutputName\": \"Metallic\",\n    \"m_StageCapability\": 2,\n    \"m_Value\":
-    0.0,\n    \"m_DefaultValue\": 0.0,\n    \"m_Labels\": []\n}\n\n{\n    \"m_SGVersion\":
-    0,\n    \"m_Type\": \"UnityEditor.ShaderGraph.BlockNode\",\n    \"m_ObjectId\":
-    \"fad64f1f2b934991b074f228d63992ff\",\n    \"m_Group\": {\n        \"m_Id\":
-    \"\"\n    },\n    \"m_Name\": \"SurfaceDescription.Emission\",\n    \"m_DrawState\":
-    {\n        \"m_Expanded\": true,\n        \"m_Position\": {\n            \"serializedVersion\":
-    \"2\",\n            \"x\": 0.0,\n            \"y\": 0.0,\n            \"width\":
-    0.0,\n            \"height\": 0.0\n        }\n    },\n    \"m_Slots\": [\n       
-    {\n            \"m_Id\": \"1a78f2f07a704fa1a1fed5790c01a58c\"\n        }\n   
-    ],\n    \"synonyms\": [],\n    \"m_Precision\": 0,\n    \"m_PreviewExpanded\":
-    true,\n    \"m_DismissedVersion\": 0,\n    \"m_PreviewMode\": 0,\n    \"m_CustomColors\":
-    {\n        \"m_SerializableColors\": []\n    },\n    \"m_SerializedDescriptor\":
-    \"SurfaceDescription.Emission\"\n}\n\n{\n    \"m_SGVersion\": 0,\n    \"m_Type\":
-    \"UnityEditor.ShaderGraph.BlockNode\",\n    \"m_ObjectId\": \"fc87b61bcc8a4f659e963fdb30a5a843\",\n   
-    \"m_Group\": {\n        \"m_Id\": \"\"\n    },\n    \"m_Name\": \"SurfaceDescription.NormalTS\",\n   
-    \"m_DrawState\": {\n        \"m_Expanded\": true,\n        \"m_Position\": {\n           
-    \"serializedVersion\": \"2\",\n            \"x\": 0.0,\n            \"y\": 0.0,\n           
-    \"width\": 0.0,\n            \"height\": 0.0\n        }\n    },\n    \"m_Slots\":
-    [\n        {\n            \"m_Id\": \"e0444a2f44f94c72ac3ba1bb80277852\"\n       
-    }\n    ],\n    \"synonyms\": [],\n    \"m_Precision\": 0,\n    \"m_PreviewExpanded\":
-    true,\n    \"m_DismissedVersion\": 0,\n    \"m_PreviewMode\": 0,\n    \"m_CustomColors\":
-    {\n        \"m_SerializableColors\": []\n    },\n    \"m_SerializedDescriptor\":
-    \"SurfaceDescription.NormalTS\"\n}\n\n"
-  m_AssetMaybeChangedOnDisk: 0
-  m_AssetMaybeDeleted: 0
---- !u!114 &13
->>>>>>> cabane-d-emmanuel
-=======
-  - {fileID: 15}
-  - {fileID: 16}
-  m_Selected: 0
-  m_LastSelected: 1
---- !u!114 &12
->>>>>>> LucasMolina
->>>>>>> e977535df50394f2983e7e4aa2ecabaa20d4d302
-=======
---- !u!114 &13
->>>>>>> Jean
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1313,53 +412,14 @@ MonoBehaviour:
   m_MaxSize: {x: 10000, y: 10000}
   m_TitleContent:
     m_Text: Project
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    m_Image: {fileID: -5467254957812901981, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-<<<<<<< HEAD
-    x: 988
-    y: 387
-    width: 436
-    height: 612
-=======
-=======
->>>>>>> randy-prog-2
     m_Image: {fileID: -5179483145760003458, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
-    x: 842.4
+    x: 656.8
     y: 527.2
-    width: 341.2
+    width: 526.80005
     height: 249.00003
-=======
-    x: 0
-    y: 846
-    width: 1953
-    height: 513.00006
->>>>>>> cabane-d-emmanuel
-=======
-    x: 0
-    y: 755
-    width: 1468
-    height: 244
->>>>>>> LucasMolina
->>>>>>> e977535df50394f2983e7e4aa2ecabaa20d4d302
-=======
-    m_Image: {fileID: -5467254957812901981, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 8
-    y: 633
-    width: 1844
-    height: 358
->>>>>>> Jean
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1382,97 +442,23 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    - Assets/nature
-=======
-    - Assets
->>>>>>> cabane-d-emmanuel
-=======
-    - Assets/animations
->>>>>>> LucasMolina
-=======
     - Assets/Scripts
-<<<<<<< HEAD
->>>>>>> randy-prog-2
-=======
->>>>>>> LucasMolina
->>>>>>> e977535df50394f2983e7e4aa2ecabaa20d4d302
-=======
-    - Assets/animations
->>>>>>> Jean
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  - Assets/nature
-=======
-  - Assets/animations
->>>>>>> LucasMolina
-=======
   - Assets/Scripts
->>>>>>> randy-prog-2
-=======
-  - Assets/animations
->>>>>>> Jean
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\jroma\OneDrive\Bureau\CMN FilesShid\School Projects
-    Session 5(A22)\ExpJeu\God-Sim
+  m_LastProjectPath: D:\Unity\God-Sim
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-<<<<<<< HEAD
-<<<<<<< HEAD
-    scrollPos: {x: 0, y: 0}
-<<<<<<< HEAD
-<<<<<<< HEAD
-    m_SelectedIDs: 487b0000
-    m_LastClickedID: 31560
-    m_ExpandedIDs: 00000000287b00002a7b00002c7b000000ca9a3b
-=======
-    m_SelectedIDs: 66730000
-    m_LastClickedID: 29542
-    m_ExpandedIDs: 000000006673000000ca9a3bffffff7f
->>>>>>> cabane-d-emmanuel
-=======
-    m_SelectedIDs: 0e7f0000
-    m_LastClickedID: 32526
-    m_ExpandedIDs: 00000000807b0000967b000000ca9a3b
->>>>>>> LucasMolina
-=======
-<<<<<<< HEAD
-    scrollPos: {x: 0, y: 300}
-    m_SelectedIDs: a2930000
-    m_LastClickedID: 37794
-    m_ExpandedIDs: 00000000b47d0000b67d0000b87d0000ba7d0000bc7d0000be7d0000c07d0000c27d000000ca9a3b
->>>>>>> randy-prog-2
-=======
-  - Assets/Scripts
-  m_LastFoldersGridSize: -1
-  m_LastProjectPath: O:\Unity\God-Sim\God-Sim
-  m_LockTracker:
-    m_IsLocked: 0
-  m_FolderTreeState:
-    scrollPos: {x: 0, y: 48}
-    m_SelectedIDs: 4a060000
-    m_LastClickedID: 1610
-    m_ExpandedIDs: 000000000a060000ffffff7f
->>>>>>> LucasMolina
->>>>>>> e977535df50394f2983e7e4aa2ecabaa20d4d302
-=======
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 5a070000
-    m_LastClickedID: 1882
-    m_ExpandedIDs: 000000000a060000ca06000042080000
->>>>>>> Jean
+    scrollPos: {x: 0, y: 366.99997}
+    m_SelectedIDs: d4810000
+    m_LastClickedID: 33236
+    m_ExpandedIDs: 00000000f87f0000fa7f0000fc7f0000fe7f00000080000002800000048000000680000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1488,23 +474,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
       m_ClientGUIView: {fileID: 4}
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-      m_ClientGUIView: {fileID: 4}
-=======
-      m_ClientGUIView: {fileID: 5}
->>>>>>> cabane-d-emmanuel
-=======
-      m_ClientGUIView: {fileID: 0}
->>>>>>> LucasMolina
->>>>>>> e977535df50394f2983e7e4aa2ecabaa20d4d302
-=======
-      m_ClientGUIView: {fileID: 0}
->>>>>>> Jean
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -1516,28 +486,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    m_ExpandedIDs: 00000000287b00002a7b00002c7b0000
-=======
-    m_ExpandedIDs: 0000000066730000
->>>>>>> cabane-d-emmanuel
-=======
-    m_ExpandedIDs: 00000000807b0000827b0000847b0000
->>>>>>> LucasMolina
-=======
-<<<<<<< HEAD
-    m_ExpandedIDs: 00000000b47d0000b67d0000b87d0000ba7d0000bc7d0000be7d0000c07d0000c27d0000
->>>>>>> randy-prog-2
-=======
-    m_ExpandedIDs: 
->>>>>>> LucasMolina
->>>>>>> e977535df50394f2983e7e4aa2ecabaa20d4d302
-=======
-    m_ExpandedIDs: 
->>>>>>> Jean
+    m_ExpandedIDs: 00000000f87f0000fa7f0000fc7f0000fe7f000000800000028000000480000006800000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1562,32 +511,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-<<<<<<< HEAD
-<<<<<<< HEAD
-    m_SelectedInstanceIDs: 86720000
-    m_LastClickedInstanceID: 29318
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c62300003a310000ec7200001474000000000000c075000092790000a0710000
-=======
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
-    m_ExpandedInstanceIDs: c62300003a310000ec7200001474000000000000c0750000
-=======
-    m_ExpandedInstanceIDs: c62300007c5d00001cf800005c020000
->>>>>>> cabane-d-emmanuel
-=======
-    m_ExpandedInstanceIDs: c623000000000000
->>>>>>> LucasMolina
->>>>>>> e977535df50394f2983e7e4aa2ecabaa20d4d302
-=======
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000
->>>>>>> Jean
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1603,23 +530,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
-      m_ClientGUIView: {fileID: 13}
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
       m_ClientGUIView: {fileID: 4}
-=======
-      m_ClientGUIView: {fileID: 5}
->>>>>>> cabane-d-emmanuel
-=======
-      m_ClientGUIView: {fileID: 5}
->>>>>>> LucasMolina
->>>>>>> e977535df50394f2983e7e4aa2ecabaa20d4d302
-=======
-      m_ClientGUIView: {fileID: 5}
->>>>>>> Jean
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -1627,35 +538,11 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 469.99997}
+    m_ScrollPosition: {x: 0, y: 97.99997}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  m_DirectoriesAreaWidth: 145
-=======
-  m_DirectoriesAreaWidth: 139
->>>>>>> LucasMolina
-=======
-<<<<<<< HEAD
-  m_DirectoriesAreaWidth: 183
->>>>>>> randy-prog-2
+  m_DirectoriesAreaWidth: 119
 --- !u!114 &16
-=======
-  m_DirectoriesAreaWidth: 207
---- !u!114 &14
->>>>>>> cabane-d-emmanuel
-=======
-  m_DirectoriesAreaWidth: 207
---- !u!114 &13
->>>>>>> LucasMolina
->>>>>>> e977535df50394f2983e7e4aa2ecabaa20d4d302
-=======
-  m_DirectoriesAreaWidth: 207
---- !u!114 &14
->>>>>>> Jean
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1671,20 +558,6 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Inspector
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    m_Image: {fileID: -2667387946076563598, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 1469
-    y: 73
-    width: 450
-    height: 926
-=======
-=======
->>>>>>> randy-prog-2
     m_Image: {fileID: -440750813802333266, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
@@ -1693,16 +566,6 @@ MonoBehaviour:
     y: 80.8
     width: 342.19995
     height: 695.4
-=======
-    m_Image: {fileID: -2667387946076563598, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 1853
-    y: 81
-    width: 698
-    height: 910
->>>>>>> Jean
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1719,29 +582,13 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 2061.6
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
-<<<<<<< HEAD
-<<<<<<< HEAD
 --- !u!114 &17
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
---- !u!114 &17
-=======
---- !u!114 &15
->>>>>>> cabane-d-emmanuel
-=======
---- !u!114 &14
->>>>>>> LucasMolina
->>>>>>> e977535df50394f2983e7e4aa2ecabaa20d4d302
-=======
---- !u!114 &15
->>>>>>> Jean
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1757,51 +604,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Hierarchy
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    m_Image: {fileID: 7966133145522015247, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 0
-    y: 73
-<<<<<<< HEAD
-    width: 436
-    height: 293
-=======
-=======
->>>>>>> randy-prog-2
     m_Image: {fileID: -3734745235275155857, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
-    x: 842.4
+    x: 656.8
     y: 80.8
-    width: 341.2
+    width: 526.80005
     height: 425.4
-=======
-    x: 0
-    y: 72.66667
-    width: 481
-    height: 752.3333
->>>>>>> cabane-d-emmanuel
-=======
-    width: 361
-    height: 661
->>>>>>> LucasMolina
->>>>>>> e977535df50394f2983e7e4aa2ecabaa20d4d302
-=======
-    m_Image: {fileID: 7966133145522015247, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 8
-    y: 81
-    width: 457
-    height: 531
->>>>>>> Jean
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1813,94 +623,26 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
       scrollPos: {x: 0, y: 0}
-=======
-      scrollPos: {x: 0, y: 16}
->>>>>>> LucasMolina
-=======
-      scrollPos: {x: 0, y: 0}
->>>>>>> LucasMolina
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: a2cefdff4cfefdff5c00fefff600feffac04feffb609fefff60bfefff02f01001430010040300100643001007e300100b6300100
+      m_ExpandedIDs: 8ad1ffff3a8200006e820000f488000014890000fe8a00000a8b00008a8b0000988b00009c8b0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-<<<<<<< HEAD
-        m_Name: 'VivantPannel '
-        m_OriginalName: 'VivantPannel '
-=======
-      scrollPos: {x: 0, y: 468.6667}
-      m_SelectedIDs: 70f9ffff
-      m_LastClickedID: -1680
-      m_ExpandedIDs: 7cf9ffff88f9ffff94f9ffffa0f9ffffacf9ffffb8f9ffffc4f9ffffd0f9ffffdcf9ffffe8f9fffff4f9ffff00faffff0cfaffff18faffff24faffff30faffff3cfaffff48faffff54faffff60faffff6cfaffff78faffff84faffff90faffff9cfaffffa8faffffb4faffffc0faffffccfaffffe0fafffffcfaffff10fbffff1cfbffff20fbffff22fbffff
-=======
-      scrollPos: {x: 0, y: 660}
-      m_SelectedIDs: 56740000
-      m_LastClickedID: 29782
-      m_ExpandedIDs: 22fbffff3c7100004c71000050710000887100008c7100009071000098710000b2710000c6710000d8710000ec710000f8710000fc7100000e7200002e720000327200003a7200003e7200005072000086720000a4720000ac720000b0720000b4720000bc720000f872000012730000167300002c7300004e7300005873000060730000b4730000cc730000d4730000d8730000de730000ea730000fc7300000074000018740000567400005a740000747400009a740000a6740000d674000002750000267500003475000038750000
->>>>>>> randy-prog-2
-=======
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 00d1fdff
-      m_LastClickedID: -143104
-      m_ExpandedIDs: 02d1fdffb8d7fdff2ce3fdffc8e3fdffc2edfdff1aeffdff60f5fdff78fcfdff2200feff9201feff42fbffff
->>>>>>> Jean
-      m_RenameOverlay:
-        m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
-<<<<<<< HEAD
->>>>>>> cabane-d-emmanuel
-=======
-        m_Name: 
-        m_OriginalName: 
->>>>>>> LucasMolina
-=======
->>>>>>> randy-prog-2
+        m_Name: XRInputActionManager
+        m_OriginalName: XRInputActionManager
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        m_UserData: 29994
-=======
-        m_UserData: 0
->>>>>>> LucasMolina
+        m_UserData: 30896
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
-<<<<<<< HEAD
         m_ClientGUIView: {fileID: 6}
-=======
-=======
->>>>>>> randy-prog-2
-        m_UserData: 0
-        m_IsWaitingForDelay: 0
-        m_IsRenaming: 0
-        m_OriginalEventType: 11
-        m_IsRenamingFilename: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-        m_ClientGUIView: {fileID: 13}
-=======
-        m_ClientGUIView: {fileID: 4}
->>>>>>> cabane-d-emmanuel
-=======
-        m_ClientGUIView: {fileID: 4}
->>>>>>> LucasMolina
->>>>>>> e977535df50394f2983e7e4aa2ecabaa20d4d302
-=======
-        m_ClientGUIView: {fileID: 4}
->>>>>>> Jean
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -1908,23 +650,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 4c969a2b90040154d917609493e03593
-<<<<<<< HEAD
-<<<<<<< HEAD
 --- !u!114 &18
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
---- !u!114 &18
-=======
---- !u!114 &16
->>>>>>> cabane-d-emmanuel
-=======
---- !u!114 &15
->>>>>>> LucasMolina
->>>>>>> e977535df50394f2983e7e4aa2ecabaa20d4d302
-=======
---- !u!114 &16
->>>>>>> Jean
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1940,58 +666,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Scene
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    m_Image: {fileID: 2593428753322112591, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 362
-    y: 73
-<<<<<<< HEAD
-<<<<<<< HEAD
-    width: 1160
-    height: 405
-=======
-=======
->>>>>>> randy-prog-2
     m_Image: {fileID: 8634526014445323508, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
-    x: 482
-    y: 72.66667
-    width: 1470
-    height: 752.3333
->>>>>>> cabane-d-emmanuel
-=======
-    width: 991
-    height: 382
->>>>>>> LucasMolina
-=======
-<<<<<<< HEAD
     x: 7.2000003
     y: 80.8
-    width: 834.2
+    width: 648.6
     height: 342.2
->>>>>>> randy-prog-2
-=======
-    width: 1105
-    height: 661
->>>>>>> LucasMolina
->>>>>>> e977535df50394f2983e7e4aa2ecabaa20d4d302
-=======
-    m_Image: {fileID: 2593428753322112591, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 466
-    y: 81
-    width: 1385
-    height: 531
->>>>>>> Jean
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -2006,20 +688,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
       snapOffset: {x: -160, y: -26.399994}
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-      snapOffset: {x: -156, y: -26}
-=======
-      snapOffset: {x: -166, y: -26}
->>>>>>> LucasMolina
->>>>>>> e977535df50394f2983e7e4aa2ecabaa20d4d302
-=======
-      snapOffset: {x: -156, y: -26}
->>>>>>> Jean
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 3
       id: Tool Settings
@@ -2032,9 +701,9 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: -141, y: 149}
+      snapOffset: {x: -141, y: -200.59998}
       snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 1
+      snapCorner: 3
       id: unity-grid-and-snap-toolbar
       index: 1
       layout: 1
@@ -2080,53 +749,13 @@ MonoBehaviour:
       size: {x: 0, y: 0}
       sizeOverriden: 0
     - dockPosition: 0
-      containerId: overlay-container--left
-      floating: 0
-      collapsed: 0
-      displayed: 1
-      snapOffset: {x: 0, y: 197}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
-      id: unity-component-tools
-      index: 1
-      layout: 2
-      size: {x: 0, y: 0}
-      sizeOverriden: 0
-    - dockPosition: 0
       containerId: overlay-container--right
       floating: 0
       collapsed: 0
       displayed: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-      snapOffset: {x: 67.5, y: -123}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 2
-=======
-      snapOffset: {x: 67.5, y: 86}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
->>>>>>> cabane-d-emmanuel
-=======
-      snapOffset: {x: 67.5, y: 1}
-=======
-      snapOffset: {x: 67.5, y: 86}
->>>>>>> LucasMolina
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
->>>>>>> LucasMolina
-=======
       snapOffset: {x: 67.5, y: -124.00001}
       snapOffsetDelta: {x: 0, y: 0.0000076293945}
       snapCorner: 2
->>>>>>> randy-prog-2
-=======
-      snapOffset: {x: 67.5, y: 86}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
->>>>>>> Jean
       id: Orientation
       index: 0
       layout: 4
@@ -2150,11 +779,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 0
-<<<<<<< HEAD
       snapOffset: {x: 0, y: 3.2000122}
-=======
-      snapOffset: {x: 0, y: 0}
->>>>>>> Jean
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Scene View/Camera
@@ -2266,110 +891,29 @@ MonoBehaviour:
       layout: 4
       size: {x: 0, y: 0}
       sizeOverriden: 0
-    - dockPosition: 0
-      containerId: Floating
-      floating: 1
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
       collapsed: 0
       displayed: 0
-      snapOffset: {x: 6, y: -204}
+      snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 2
+      snapCorner: 0
       id: Scene View/Particles
-      index: 0
+      index: 7
       layout: 4
       size: {x: 0, y: 0}
       sizeOverriden: 0
-    - dockPosition: 1
-      containerId: overlay-container--right
-      floating: 0
-      collapsed: 0
-      displayed: 0
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
-      id: Scene View/Tilemap
-      index: 11
-      layout: 4
-      size: {x: 0, y: 0}
-      sizeOverriden: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> e977535df50394f2983e7e4aa2ecabaa20d4d302
     - dockPosition: 0
       containerId: Floating
       floating: 1
-=======
-    - dockPosition: 1
-      containerId: overlay-container--right
-      floating: 0
-      collapsed: 0
-      displayed: 0
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
-      id: Scene View/Tilemap Palette Helper
-      index: 12
-      layout: 4
-      size: {x: 0, y: 0}
-      sizeOverriden: 0
-    - dockPosition: 1
-      containerId: overlay-container--right
-      floating: 0
->>>>>>> LucasMolina
       collapsed: 0
       displayed: 1
-<<<<<<< HEAD
       snapOffset: {x: -217.59998, y: -301.59998}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 3
-=======
-      snapOffset: {x: 48, y: 48}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
->>>>>>> e977535df50394f2983e7e4aa2ecabaa20d4d302
       id: AINavigationOverlay
-      index: 7
-=======
-    - dockPosition: 1
-      containerId: overlay-container--right
-      floating: 0
-      collapsed: 0
-      displayed: 0
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
-      id: Scene View/Tilemap
-      index: 11
->>>>>>> Jean
-      layout: 4
-      size: {x: 0, y: 0}
-      sizeOverriden: 0
-    - dockPosition: 1
-      containerId: overlay-container--right
-      floating: 0
-      collapsed: 0
-      displayed: 0
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
-      id: Scene View/Tilemap Palette Helper
-      index: 12
-      layout: 4
-      size: {x: 0, y: 0}
-      sizeOverriden: 0
-    - dockPosition: 1
-      containerId: overlay-container--right
-      floating: 0
-      collapsed: 0
-      displayed: 1
-      snapOffset: {x: 48, y: 48}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
-      id: AINavigationOverlay
-      index: 8
+      index: 0
       layout: 4
       size: {x: 0, y: 0}
       sizeOverriden: 0
@@ -2382,7 +926,7 @@ MonoBehaviour:
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: APV Overlay
-      index: 9
+      index: 8
       layout: 4
       size: {x: 0, y: 0}
       sizeOverriden: 0
@@ -2395,6 +939,19 @@ MonoBehaviour:
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Scene View/TrailRenderer
+      index: 9
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 48, y: 48}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: XREnvironmentToolbar
       index: 10
       layout: 4
       size: {x: 0, y: 0}
@@ -2409,33 +966,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-<<<<<<< HEAD
-<<<<<<< HEAD
-    m_Target: {x: -6.971015, y: -1.9487915, z: -31.312885}
+    m_Target: {x: 2.746356, y: -13.258701, z: -19.961782}
     speed: 2
-    m_Value: {x: -6.971015, y: -1.9487915, z: -31.312885}
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-    m_Target: {x: 620.83844, y: 248.75195, z: 357.5428}
-    speed: 2
-    m_Value: {x: 620.83844, y: 248.75195, z: 357.5428}
-=======
-    m_Target: {x: 0.008453004, y: 0.059000805, z: -0.004608471}
-    speed: 2
-    m_Value: {x: 0.008453004, y: 0.059000805, z: -0.004608471}
->>>>>>> cabane-d-emmanuel
-=======
-    m_Target: {x: 497.6723, y: 153.54724, z: -420.74863}
-    speed: 2
-    m_Value: {x: 497.6723, y: 153.54724, z: -420.74863}
->>>>>>> LucasMolina
->>>>>>> e977535df50394f2983e7e4aa2ecabaa20d4d302
-=======
-    m_Target: {x: 2.6265845, y: 0.46897075, z: -1.5131848}
-    speed: 2
-    m_Value: {x: 2.6265845, y: 0.46897075, z: -1.5131848}
->>>>>>> Jean
+    m_Value: {x: 2.746356, y: -13.258701, z: -19.961782}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -2481,61 +1014,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-<<<<<<< HEAD
-    m_Target: {x: 0.43749258, y: -0.23616138, z: 0.11987012, w: 0.85958564}
+    m_Target: {x: -0.23210818, y: -0.02276132, z: 0.0054329224, w: -0.9724096}
     speed: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-    m_Value: {x: 0.008620687, y: -0.11675645, z: -0.0011163603, w: -0.9931225}
-=======
-    m_Value: {x: 0.43739894, y: -0.23611084, z: 0.11984446, w: 0.85940164}
->>>>>>> randy-prog-2
+    m_Value: {x: -0.23210792, y: -0.022761296, z: 0.0054329163, w: -0.97240853}
   m_Size:
-    m_Target: 10.122654
-=======
-<<<<<<< HEAD
-    m_Target: {x: 0.008622196, y: -0.116776876, z: -0.0011165556, w: -0.9932963}
-=======
-    m_Target: {x: -0.0037182772, y: -0.6360751, z: 0.0030504966, w: -0.7716223}
->>>>>>> LucasMolina
+    m_Target: 41.541706
     speed: 2
-    m_Value: {x: -0.0037182483, y: -0.63607013, z: 0.0030504728, w: -0.77161634}
-  m_Size:
-    m_Target: 10
->>>>>>> e977535df50394f2983e7e4aa2ecabaa20d4d302
-    speed: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-    m_Value: 474.9193
-=======
-    m_Target: {x: -0.004358962, y: 0.9912309, z: 0.12776732, w: 0.033830952}
-    speed: 2
-    m_Value: {x: -0.0037839166, y: 0.9913599, z: 0.12778395, w: 0.029369691}
-  m_Size:
-    m_Target: 0.11049117
-    speed: 2
-    m_Value: 0.11049117
->>>>>>> cabane-d-emmanuel
-=======
-    m_Value: 496.29068
->>>>>>> LucasMolina
-=======
-<<<<<<< HEAD
-    m_Value: 10.122654
->>>>>>> randy-prog-2
-=======
-    m_Value: 10.000007
->>>>>>> LucasMolina
->>>>>>> e977535df50394f2983e7e4aa2ecabaa20d4d302
-=======
-    m_Target: {x: 0.073630884, y: 0.85886395, z: -0.12939793, w: 0.49044168}
-    speed: 2
-    m_Value: {x: 0.07361816, y: 0.85871553, z: -0.12937556, w: 0.49035692}
-  m_Size:
-    m_Target: 5.725267
-    speed: 2
-    m_Value: 5.725267
->>>>>>> Jean
+    m_Value: 41.541706
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -2560,23 +1045,7 @@ MonoBehaviour:
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
 --- !u!114 &19
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
---- !u!114 &19
-=======
---- !u!114 &17
->>>>>>> cabane-d-emmanuel
-=======
---- !u!114 &16
->>>>>>> LucasMolina
->>>>>>> e977535df50394f2983e7e4aa2ecabaa20d4d302
-=======
---- !u!114 &17
->>>>>>> Jean
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2592,53 +1061,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Game
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-<<<<<<< HEAD
-    x: 0
-    y: 499
-    width: 987
-    height: 500
-=======
-=======
->>>>>>> randy-prog-2
     m_Image: {fileID: 4621777727084837110, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
     x: 7.2000003
     y: 444
-    width: 834.2
+    width: 648.6
     height: 332.2
-=======
-    x: 507
-    y: 94
-    width: 1532
-    height: 790
->>>>>>> cabane-d-emmanuel
-=======
-    x: 362
-    y: 73
-    width: 1105
-    height: 661
->>>>>>> LucasMolina
->>>>>>> e977535df50394f2983e7e4aa2ecabaa20d4d302
-=======
-    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 466
-    y: 81
-    width: 1385
-    height: 531
->>>>>>> Jean
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -2654,25 +1084,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  m_TargetSize: {x: 1160, y: 479}
-=======
-  m_TargetSize: {x: 987, y: 479}
->>>>>>> LucasMolina
-=======
-<<<<<<< HEAD
-  m_TargetSize: {x: 834.2, y: 311.2}
->>>>>>> randy-prog-2
-=======
-  m_TargetSize: {x: 1105, y: 640}
->>>>>>> LucasMolina
->>>>>>> e977535df50394f2983e7e4aa2ecabaa20d4d302
-=======
-  m_TargetSize: {x: 1385, y: 510}
->>>>>>> Jean
+  m_TargetSize: {x: 648.6, y: 311.2}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -2692,44 +1104,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    m_HBaseRangeMin: -580
-    m_HBaseRangeMax: 580
-=======
-    m_HBaseRangeMin: -493.5
-    m_HBaseRangeMax: 493.5
->>>>>>> LucasMolina
-    m_VBaseRangeMin: -239.5
-    m_VBaseRangeMax: 239.5
-=======
-    m_HBaseRangeMin: -510.6667
-    m_HBaseRangeMax: 510.6667
-    m_VBaseRangeMin: -256.33334
-    m_VBaseRangeMax: 256.33334
->>>>>>> cabane-d-emmanuel
-=======
-<<<<<<< HEAD
-    m_HBaseRangeMin: -333.68002
-    m_HBaseRangeMax: 333.68002
+    m_HBaseRangeMin: -259.44
+    m_HBaseRangeMax: 259.44
     m_VBaseRangeMin: -124.48
     m_VBaseRangeMax: 124.48
->>>>>>> randy-prog-2
-=======
-    m_HBaseRangeMin: -552.5
-    m_HBaseRangeMax: 552.5
-    m_VBaseRangeMin: -320
-    m_VBaseRangeMax: 320
->>>>>>> LucasMolina
->>>>>>> e977535df50394f2983e7e4aa2ecabaa20d4d302
-=======
-    m_HBaseRangeMin: -692.5
-    m_HBaseRangeMax: 692.5
-    m_VBaseRangeMin: -255
-    m_VBaseRangeMax: 255
->>>>>>> Jean
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -2738,7 +1116,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -2747,132 +1125,31 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-      width: 1160
-      height: 479
-    m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 580, y: 239.5}
-=======
-      width: 1532
-      height: 769
-    m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 766, y: 384.5}
->>>>>>> cabane-d-emmanuel
-=======
-      width: 987
-      height: 479
-    m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 493.5, y: 239.5}
->>>>>>> LucasMolina
-=======
-<<<<<<< HEAD
-      width: 834.2
+      width: 648.6
       height: 311.2
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 417.1, y: 155.6}
->>>>>>> randy-prog-2
-=======
-      width: 1105
-      height: 640
-    m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 552.5, y: 320}
->>>>>>> LucasMolina
->>>>>>> e977535df50394f2983e7e4aa2ecabaa20d4d302
-=======
-      width: 1385
-      height: 510
-    m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 692.5, y: 255}
->>>>>>> Jean
+    m_Translation: {x: 324.3, y: 155.6}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-      x: -580
-=======
-      x: -493.5
->>>>>>> LucasMolina
-      y: -239.5
-      width: 987
-      height: 479
-    m_MinimalGUI: 1
-  m_defaultScale: 1
-<<<<<<< HEAD
-  m_LastWindowPixelSize: {x: 1160, y: 500}
-=======
-      x: -766
-      y: -384.5
-      width: 1532
-      height: 769
-    m_MinimalGUI: 1
-  m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 2298, y: 1185}
->>>>>>> cabane-d-emmanuel
-=======
-  m_LastWindowPixelSize: {x: 987, y: 500}
->>>>>>> LucasMolina
-=======
-<<<<<<< HEAD
-      x: -417.1
+      x: -324.3
       y: -155.6
-      width: 834.2
+      width: 648.6
       height: 311.2
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 1042.75, y: 415.25}
->>>>>>> randy-prog-2
-=======
-      x: -552.5
-      y: -320
-      width: 1105
-      height: 640
-    m_MinimalGUI: 1
-  m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 1105, y: 661}
->>>>>>> LucasMolina
->>>>>>> e977535df50394f2983e7e4aa2ecabaa20d4d302
-=======
-      x: -692.5
-      y: -255
-      width: 1385
-      height: 510
-    m_MinimalGUI: 1
-  m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 1385, y: 531}
->>>>>>> Jean
+  m_LastWindowPixelSize: {x: 810.75, y: 415.25}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
-  m_XRRenderMode: 0
+  m_XRRenderMode: -1
   m_RenderTexture: {fileID: 0}
   m_showToolbar: 1
   m_showToolbarOnFullscreen: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
 --- !u!114 &20
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
---- !u!114 &20
-=======
---- !u!114 &18
->>>>>>> cabane-d-emmanuel
-=======
---- !u!114 &17
->>>>>>> LucasMolina
->>>>>>> e977535df50394f2983e7e4aa2ecabaa20d4d302
-=======
---- !u!114 &18
->>>>>>> Jean
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2888,52 +1165,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Console
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    m_Image: {fileID: -4327648978806127646, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-<<<<<<< HEAD
-    x: 1072
-    y: 387
-    width: 463
-    height: 612
-=======
-=======
->>>>>>> randy-prog-2
     m_Image: {fileID: -4950941429401207979, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
     x: 842.4
     y: 527.2
     width: 341.2
     height: 249.00003
-=======
-=======
->>>>>>> LucasMolina
-    x: 2249
-    y: 726.5
-    width: 920
-    height: 250
-<<<<<<< HEAD
->>>>>>> cabane-d-emmanuel
-=======
->>>>>>> LucasMolina
->>>>>>> e977535df50394f2983e7e4aa2ecabaa20d4d302
-=======
-    m_Image: {fileID: -4327648978806127646, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 8
-    y: 633
-    width: 1942
-    height: 358
->>>>>>> Jean
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
