@@ -11,8 +11,10 @@ public class InputManager : MonoBehaviour
     [SerializeField] InputActionReference menuToggle;
     private bool isToggled = true;
     public GameObject canvas;
-    public GameObject socket;
-    public GameObject[] tabObjets;
+    public List<GameObject> socket = new List<GameObject>();
+    public List<GameObject> listObjets = new List<GameObject>();
+
+    
 
     void Awake()
     {
@@ -33,22 +35,33 @@ public class InputManager : MonoBehaviour
 
     private void ToggleMenu(InputAction.CallbackContext obj){
         
+
+        int i = 0;
+
         if(isToggled){
             canvas.SetActive(false);
             isToggled = false;
-            foreach(GameObject objet in tabObjets){
-                if(objet.transform.position == socket.transform.position)
-                objet.SetActive(false);
+            foreach(GameObject objet in listObjets){
+
+                
+                
+                if(objet.transform.position == socket[i].transform.position)
+                {
+                    objet.SetActive(false);
+                }
+                
+                i++;
             }
         }
 
         else{
             canvas.SetActive(true);
             isToggled = true;
-            foreach(GameObject objet in tabObjets){
+            foreach(GameObject objet in listObjets){
                 objet.SetActive(true);
             }
         }
+        
 
     }
 
