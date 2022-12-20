@@ -2,7 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
+using UnityEngine.XR.Interaction.Toolkit.Utilities;
+using UnityEngine.XR.Interaction.Toolkit.Utilities.Pooling;
 
+namespace UnityEngine.XR.Interaction.Toolkit
+{
 public class Inventaire_UI_Gestion : MonoBehaviour
 {
     // Start is called before the first frame update
@@ -160,29 +164,52 @@ public class Inventaire_UI_Gestion : MonoBehaviour
     {
         foreach(GameObject despawn in despawnList)
         {
+            
+            
             if(despawn.GetComponent<variables>().isSocketed)
             {
-                Renderer mesh = despawn.GetComponent<MeshRenderer>();
-                mesh.enabled = false;
-                List<Renderer> childrenMesh = new List<Renderer>();
-                childrenMesh.AddRange(despawn.GetComponentsInChildren<MeshRenderer>());
-                foreach(Renderer childMesh in childrenMesh)
+                despawn.GetComponent<XRGrabInteractable>().enabled = false;
+                if(despawn.GetComponent<MeshRenderer>() != null)
                 {
-                    childMesh.enabled = false;
+                    Renderer mesh = despawn.GetComponent<MeshRenderer>();
+                    mesh.enabled = false;
                 }
+
+                if(despawn.GetComponentsInChildren<MeshRenderer>() != null)
+                {
+
+                
+                    List<Renderer> childrenMesh = new List<Renderer>();
+                    childrenMesh.AddRange(despawn.GetComponentsInChildren<MeshRenderer>());
+                   
+                    foreach(Renderer childMesh in childrenMesh)
+                    {
+                        childMesh.enabled = false;
+                    }
+                }
+                
             }
         }
 
         foreach(GameObject respawn in respawnList)
         {
-            Renderer mesh = respawn.GetComponent<MeshRenderer>();
-            mesh.enabled = true;
-            List<Renderer> childrenMesh = new List<Renderer>();
-            childrenMesh.AddRange(respawn.GetComponentsInChildren<MeshRenderer>());
-            foreach(Renderer childMesh in childrenMesh)
+            respawn.GetComponent<XRGrabInteractable>().enabled = true;
+            if(respawn.GetComponent<MeshRenderer>() != null)
             {
-                    childMesh.enabled = true;
+                Renderer mesh = respawn.GetComponent<MeshRenderer>();
+                mesh.enabled = true;
             }
+            List<Renderer> childrenMesh = new List<Renderer>();
+            if(respawn.GetComponentsInChildren<MeshRenderer>() != null)
+            {
+                childrenMesh.AddRange(respawn.GetComponentsInChildren<MeshRenderer>());
+                foreach(Renderer childMesh in childrenMesh)
+                {
+                        childMesh.enabled = true;
+                }
+            }
+            
         }
     }
+}
 }
